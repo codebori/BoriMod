@@ -7,7 +7,6 @@ Processes (numbers are mostly guesswork):
 
 1. Drilling/Pumping:
 
-Outputs:
 - Ore (Stock)
 - Crude Oil 90% + Natural Gas (primarly Methane) 10% (DumpExcess = true)
 - Water
@@ -32,4 +31,5 @@ Outputs:
 - Hydrogen:
   Input: Oil
   Output: Hydrogen + Methane
-  
+ 
+- ? more to be added 
