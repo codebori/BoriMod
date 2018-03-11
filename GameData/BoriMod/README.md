@@ -1,5 +1,8 @@
 # BoriMod
-MM configs for RF ISRU etc including new resource Crude Oil
+
+MM configs for:
+
+- ISRU plus including new resource Crude Oil
 
 Oil is only found on Kerbin and maybe Laythe
 
@@ -33,3 +36,14 @@ Processes (numbers are mostly guesswork):
     Output: Hydrogen + Methane
  
   - ? more to be added 
+
+- Remove Liquid Fuel etc from ISRU
+
+- Replace Rocketparts with Materialkits
+
+TO DO
+
+1. Test
+
+2. Figure out the correct order and mod dependencies and remove ":FINAL"
+
