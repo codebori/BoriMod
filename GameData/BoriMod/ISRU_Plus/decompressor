@@ -1,0 +1,32 @@
+@PART[*]:HAS[#ResourceName[LqdOxygen]]
+{
+	MODULE
+	{
+		name = ModuleResourceConverter
+		ConverterName = Decompress LqdOxygen
+		StartActionName = Start ISRU [Decompress Oxygen]
+		StopActionName = Stop ISRU [Decompress Oxygen]
+		AutoShutdown = true
+		
+		UseSpecialistBonus = true
+		SpecialistEfficiencyFactor = 0.2
+		SpecialistBonusBase = 0.05
+		ExperienceEffect = ConverterSkill
+		EfficiencyBonus = 1
+		 
+		 INPUT_RESOURCE
+		 {
+			ResourceName = LqdOxygen	//density = 0.00141
+			Ratio = 1
+			FlowMode = STAGE_PRIORITY_FLOW
+  		 
+		 OUTPUT_RESOURCE
+		 {
+			ResourceName = Oxygen  //density is 0.000001141
+			Ratio = 1000
+			DumpExcess = false
+			FlowMode = STAGE_PRIORITY_FLOW
+		 }
+	}	
+	}
+}
