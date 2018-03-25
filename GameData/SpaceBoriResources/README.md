@@ -25,37 +25,32 @@ SB’s ISRU Plus
 SB’s No LFO
  Removes or replaces Liquid Fuel, Oxidizer and Monopropellant with Kerosine, LqdOxygen and Hydrazine where RealFuels didn't do  that already.
 
- Requires Real Fuels, just because the game will be unplayable without any 
+ Requires Real Fuels, just because the game will be unplayable without any fuel.
 
 
 
 
 Processes (numbers are mostly guesswork):
 
-Drilling/Pumping:
-Ore (Stock)
-Crude Oil 90% + Natural Gas (primarly Methane) 10% (DumpExcess = true)
-Water
-? more to be added
-Refining (ISRU):
-Kerosine: Input: Oil Output: 15% Kerosine + 1% LqdMethane (DumpExcess = true)
+ Drilling/Pumping:
+  Crude Oil 90% + Natural Gas (primarly Methane) 10% (DumpExcess = true)
+  LqdMethane
+  Water
+  ? more to be added?
 
-Hydrogen from Methane: Input: Methane Output: 75% Hydrogen + CO2 (DumpExcess = true)
+ ISRU:
+  Kerosine: Input: Oil Output: 15% Kerosine + 1% LqdMethane (DumpExcess = true)
+  Hydrogen from Methane: Input: Methane Output: 75% Hydrogen + CO2 (DumpExcess = true)
+  Hydrogen from Water
+  more to be added
 
-Hydrogen from Water
+ Remove Liquid Fuel etc from ISRU
 
-(Lqd)Methane: Input: Oil + CO2? Output: (Lqd)Methane +?
-
-Hydrogen: Input: Oil Output: Hydrogen + Methane
-
-? more to be added
-
-Remove Liquid Fuel etc from ISRU
-
-Replace Rocketparts with Materialkits
+ Replace Rocketparts with Materialkits
 
 TO DO
 
-Test
-
-Figure out the correct order and mod dependencies and remove ":FINAL”
+ Figure out the correct order and mod dependencies and remove ":FINAL”
+ Get the numbers right
+ Change the composition of Layhte to be more like Titan
+ Test, test, test
