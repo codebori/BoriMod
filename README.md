@@ -1,1 +1,1 @@
-/home/boris/git/SpaceBori/GameData/SpaceBoriResources/README.md
+GameData/SpaceBoriResources/README.md
