@@ -35,7 +35,8 @@
  Adds CLS patches to the Large Probe, Large SAS and the Large TACLS Recyclers
 
 # Notes
- 24.4.2018: I switched to 1.4.2, so I will not test on 1.3.1 anymore, which means I will not make any changes to the parts that depend on RealFuels. 
+ 18.09.2020: Testing on 1.10.1 now (with RealFuels again)
+ 24.04.2018: I switched to 1.4.2, so I will not test on 1.3.1 anymore, which means I will not make any changes to the parts that depend on RealFuels. 
  
 # TO DO
 
